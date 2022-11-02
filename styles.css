@@ -45,8 +45,14 @@ body {
   gap: 10px;
 }
 
+.left-container .footer-text {
+  margin-bottom: 20px;
+}
+
 .left-container .footer-text p {
   color: white;
+  font-size: 1.6rem;
+  text-align: center;
 }
 
 .right-container {
