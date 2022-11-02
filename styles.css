@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,7 @@ html {
 body {
   display: flex;
   height: 100vh;
+  font-family: "Kanit", sans-serif;
 }
 
 .left-container {
@@ -32,12 +35,14 @@ body {
 .left-container .title h1 {
   font-size: 6rem;
   color: white;
+  text-transform: uppercase;
 }
 
 .left-container .title {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .left-container .footer-text p {
